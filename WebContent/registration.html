@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>registration Page</title>
+    <body>
+        <head><br><br><br><br>
+    <center>
+<style>
+    .box input[type="text"],.box input[type="password"]{
+     border-style:solid black;
+     background:darkmagenta;
+     display:block;
+    margin:30px auto;
+    text-align:center;
+    border:15px solid #3498db;
+    padding:18px 15px;
+    width:500px;
+    outline:none;
+    color:white;
+    transition:5,30s;
+ }
+h1{
+color:whitesmoke;
+text-shadow:3px 3px 6px rgb(0, 81, 255), 3px 3px 7px black;
+}
+h2{
+color:black;
+text-shadow:3px 3px 6px rgba(0, 247, 455, 0.685), 3px 3px 7px black;
+}
+h1{
+    text-decoration:underline;
+}
+div
+{
+width:400px;
+height:470px;
+background-color:light gray;
+box-shadow:3px 3px 6px blue,6px 6px rgba(71, 255, 80, 0.479);
+}
+</style>
+</head>
+<div style="height:90px;width:100%;background-color:DarkSlateGray;padding-top:0.5px;margin-top:-80px;">
+        <h1 align="center" style="text-color:red">Welcome to Registration</h1>
+        </div>
+
+<h1>Registration Form</h1>
+<body background="image/r1.jpg">
+      <form action="register.jsp" method="POST">
+       <div> 
+    <label border=3></label><br>
+   <h3> <tr>
+        <td>Username: </td>
+<input type="text" name="user" placeholder ="Enter Username" required></tr><br><br><br>
+<tr>
+    <td>Password: </td>&nbsp
+<input type="password" name="pass" placeholder ="Enter  Password" required></tr><br><br><br> 
+<tr>
+            <td>Mobile NO.:</td>
+           <input type="number" name="mobile" placeholder ="Enter Mobile No."></tr><br><br><br>
+        </tr>
+        <tr>
+    <td>Email ID: </td> &nbsp
+<input type="email" name="email" placeholder ="Enter Email ID"></tr><br><br><br>
+<tr>
+      
+                    <td>Address: </td>&nbsp
+                <td><textarea name="address" rows="1" cols="18" placeholder="Insert address here"></textarea></td><br><br><br>
+        </tr>
+        <tr>
+<td>state:</td> &nbsp&nbsp
+<input type="text" name="state" id="name" placeholder ="Enter state"></tr><br><br></h3>
+
+
+    <th colspan="2">
+        <tr>
+    <input type="Submit" value="Submit" id="Login">&nbsp &nbsp &nbsp &nbsp &nbsp
+    <input name="reset" value="Reset" type="reset"></th></tr>
+</center>
+</div>
+    </body>
+</html>
